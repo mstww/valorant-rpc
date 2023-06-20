@@ -31,10 +31,6 @@ if '%errorlevel%' NEQ '0' (
 	python -m pipreqs.pipreqs --force --no-pin
     python -m pip install -r requirements.txt
     python -m pip install -r requirements.txt --upgrade
-<<<<<<< HEAD
-    python -m PyInstaller main.py --name="valorant-rpc" --icon=favicon.ico --hidden-import "pystray._win32" --onefile --version-file "version.py"
-=======
     python -m PyInstaller main.py --name="valorant-rpc" --icon=favicon.ico --hidden-import "pystray._win32" --version-file "version.py" --onefile
->>>>>>> c3677c5 (Update)
     pause
 
