@@ -23,6 +23,7 @@ class Loader:
                 "unrated": "Unrated",
                 "spikerush": "Spike Rush",
                 "deathmatch": "Deathmatch",
+                "hurm": "Team Deathmatch",
                 "ggteam": "Escalation",
                 "onefa": "Replication",
                 "custom": "Custom",
@@ -43,7 +44,7 @@ class Loader:
                 "Red": "team_defender",
                 "Blue": "team_attacker",
             },
-            "modes_with_icons": ["ggteam","onefa","snowball","spikerush","unrated","deathmatch", "swiftplay"]
+            "modes_with_icons": ["ggteam","onefa","snowball","spikerush","unrated","deathmatch", "hurm", "swiftplay"]
         }
         all_content = client.fetch_content()
         agents = Loader.fetch("/agents")["data"]

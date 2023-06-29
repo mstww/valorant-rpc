@@ -16,5 +16,5 @@ VSVersionInfo(
              StringStruct(u'InternalName', u'rpcclient'),
              StringStruct(u'OriginalFilename', u'valorant-rpc.exe'),
              StringStruct(u'ProductName', u'VALORANT-rpc'),
-             StringStruct(u'ProductVersion', u'3.2.4')])]),
+             StringStruct(u'ProductVersion', u'3.2.5')])]),
         VarFileInfo([VarStruct(u'Translation', [1033, 1200])])])
