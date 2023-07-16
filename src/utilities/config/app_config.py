@@ -33,8 +33,8 @@ default_config = {
     "startup": {
         "game_launch_timeout": 50,
         "presence_timeout": 60,
-        "show_github_link": True,
-        "auto_launch_skincli": True,
+        "show_github_link": False,
+        "auto_launch_skincli": False,
     },
 }
 
